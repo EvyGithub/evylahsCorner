@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brainfuck Minimizer</title>
+    </head>
+    <body>
+        <h1>Brainf*** Code Minimizer</h1>
+        <p>it minimizes your brainf*** code, deleting everything except the 8 brainf*** commands (<span class="code">+</span>, <span class="code">-</span>, <span class="code">></span>, <span class="code"><</span>, <span class="code">[</span>, <span class="code">]</span>, <span class="code">.</span> and <span class="code">,</span>)</p>
+        <hr>
+        <textarea name="codeInput" id="input" cols="100" rows="15" placeholder="paste/type your brainf*** code here" spellcheck="false"></textarea>
+        <br>
+        <button onclick="minimize()">(hopefully) Optimize!</button>
+        <button onclick="save()">Copy</button>
+
+        <br><br>
+
+        <p>Notes: This doesn't FULLY minimize it. The code doesn't get executed. I also have no idea how to detect a FULL skipped loop. The only case that works is <span class="code">[actual loop][]</span>, where the <span class="code">[]</span> would get removed.</p>
+
+        <!--
+        <p>Current status:</p>
+        <div id="statusBox">
+            <p id="status">do your thing</p>
+        </div>
+        -->
+    </body>
+</html>
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("bgpattern.png");
+    background-repeat: repeat;
+    color: #000055;
+}
+
+p {
+    font-size: 20px;
+    margin: 25px;
+    line-height: 1.25;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 42px;
+}
+
+textarea {
+    resize: none;
+    font-size: 20px;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+#statusBox {
+    padding: 15px;
+    background-color: #BBBBBB;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+#status {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.code { /* code text */
+    font-family: Consolas, 'Courier New', monospace;
+    background-color: #E8E8F8;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+button {
+    font-size: 24px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    background-color: #0088FF;
+    transition: 0.25s;
+}
+
+button:hover {
+    background-color: #0066DD;
+}
+
+#input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #555588;
+    background-color: #EEF8FF;
+}
+</style>
+
+<script>
+function updateStatus(newStatus) {
+    document.getElementById("status").innerText = newStatus;
+}
+function minimize() {
+    let code = document.getElementById("input").value;
+
+    code = code.replaceAll(/[^+\-><\[\],.]/g, "");
+    while (code.search(/\+\-/g) != -1) {
+        code = code.replaceAll(/\+\-/g, "")
+    }
+    while (code.search(/\-\+/g) != -1) {
+        code = code.replaceAll(/\-\+/g, "");
+    }
+    while (code.search(/\<\>/g) != -1) {
+        code = code.replaceAll(/\<\>/g, "");
+    }
+    while (code.search(/\>\</g) != -1) {
+        code = code.replaceAll(/\>\</g, "");
+    }
+    while (code.search(/\]\[\]/g) != -1) {
+        code = code.replaceAll(/\]\[\]/g, "]");
+    }
+    console.log(code);
+    document.getElementById("input").value = code;
+    updateStatus("(hopefully) minimized code")
+}
+
+function save() {
+    var inputBox = document.getElementById("input");
+    inputBox.select();
+    inputBox.setSelectionRange(0, 696969);
+    navigator.clipboard.writeText(inputBox.value);
+    updateStatus("saved to clipboard")
+}
+</script>
