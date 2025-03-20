@@ -119,10 +119,10 @@ function minimize() {
 }
 
 function save() {
-    var inputBox = document.getElementById("input")
+    var inputBox = document.getElementById("input");
     inputBox.select();
     inputBox.setSelectionRange(0, 696969);
-    navigator.clipboard.writeText(inputBox.value)
+    navigator.clipboard.writeText(inputBox.value);
     updateStatus("saved to clipboard")
 }
 </script>
