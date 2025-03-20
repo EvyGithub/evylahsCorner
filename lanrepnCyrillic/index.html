@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lanrepn cyrillic generator</title>
+    </head>
+    <body>
+        <h1>lanrepn cyrillic generator</h1>
+        <p>changes your very normal text to lanrepn cyrillic [<a href="/index.html">back</a>]</p>
+
+        <hr>
+        <textarea name="codeInput" id="input" cols="100" rows="15" placeholder="paste/type your nimi pi sitelen Lasina" spellcheck="false"></textarea>
+        <br>
+        <button onclick="minimize()">o pali a!!</button>
+        <button onclick="save()">copy</button>
+
+        <br><br>
+
+        <p>there are no capital letters cuz we don't believe in that here in ланрэпн. </p>
+
+        <!--
+        <p>Current status:</p>
+        <div id="statusBox">
+            <p id="status">do your thing</p>
+        </div>
+        -->
+    </body>
+</html>
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("bgpattern.png");
+    background-repeat: repeat;
+    color: #000055;
+}
+
+p {
+    font-size: 20px;
+    margin: 25px;
+    line-height: 1.25;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 42px;
+}
+
+textarea {
+    resize: none;
+    font-size: 20px;
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+#statusBox {
+    padding: 15px;
+    background-color: #BBBBBB;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+#status {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.code { /* code text */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8E8F8;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+button {
+    font-size: 24px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    background-color: #0088FF;
+    transition: 0.25s;
+}
+
+button:hover {
+    background-color: #0066DD;
+}
+
+#input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #555588;
+    background-color: #EEF8FF;
+}
+</style>
+
+<script>
+function updateStatus(newStatus) {
+    document.getElementById("status").innerText = newStatus
+}
+function minimize() {
+    let code = document.getElementById("input").value
+
+    lasina = [/f/g, /j/g, /k/g, /l/g, /m/g, /n/g, /p/g, /r/g, /s/g, /t/g, /w/g, /x/g, /a/g, /i/g, /u/g, /e/g, /o/g]
+    kililisa = ["ф", "й", "к", "л", "м", "н", "п", "р", "с", "т", "в", "х", "а", "и", "у", "э", "о"]
+    for (i=0; i<=16; i++) {
+        code = code.replaceAll(lasina[i], kililisa[i])
+    }
+    console.log(code);
+    document.getElementById("input").value = code
+    updateStatus("(hopefully) functioning lanrepn cyrilic thing aeaeae")
+}
+
+function save() {
+    var inputBox = document.getElementById("input")
+    inputBox.select();
+    inputBox.setSelectionRange(0, 696969);
+    navigator.clipboard.writeText(inputBox.value)
+    updateStatus("saved to clipboard")
+}
+</script>
