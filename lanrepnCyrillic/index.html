@@ -110,7 +110,7 @@ function updateStatus(newStatus) {
 function minimize() {
     let code = document.getElementById("input").value
 
-    lasina = [/f/g, /j/g, /k/g, /l/g, /m/g, /n/g, /p/g, /r/g, /s/g, /t/g, /w/g, /x/g, /a/g, /i/g, /u/g, /e/g, /o/g]
+    lasina = [/f/g, /j/g, /k/g, /l/g, /m/g, /n/g, /p/g, /r/g, /s/g, /t/g, /w/g, /x/g, /a/g, /e/g, /i/g, /o/g, /u/g]
     linja = ["¡", "²", "³", "¤", "€", "¼", "½", "¾", "¥", "×", "ä", "å", "æ", "©", "ñ", "µ", "ç"]
     for (i=0; i<=16; i++) {
         code = code.replaceAll(lasina[i], linja[i])
