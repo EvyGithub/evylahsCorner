@@ -4,11 +4,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>lanrepn cyrillic generator</title>
+        <title>ланрэпн 1 dimensional linja writing generator</title>
     </head>
     <body>
-        <h1>lanrepn cyrillic generator</h1>
-        <p>changes your very normal text to lanrepn cyrillic [<a href="/index.html">back</a>]</p>
+        <h1>ланрэпн 1 dimensional linja writing generator</h1>
+        <p>changes your very normal text to 1 dimensional linja writing [<a href="/index.html">back</a>]</p>
 
         <hr>
         <textarea name="codeInput" id="input" cols="100" rows="15" placeholder="paste/type your nimi pi sitelen Lasina" spellcheck="false"></textarea>
@@ -109,9 +109,9 @@ function minimize() {
     let code = document.getElementById("input").value
 
     lasina = [/f/g, /j/g, /k/g, /l/g, /m/g, /n/g, /p/g, /r/g, /s/g, /t/g, /w/g, /x/g, /a/g, /i/g, /u/g, /e/g, /o/g]
-    kililisa = ["ф", "й", "к", "л", "м", "н", "п", "р", "с", "т", "в", "х", "а", "и", "у", "э", "о"]
+    linja = ["¡", "²", "³", "¤", "€", "¼", "½", "¾", "¥", "×", "ä", "å", "æ", "©", "ñ", "µ", "ç"]
     for (i=0; i<=16; i++) {
-        code = code.replaceAll(lasina[i], kililisa[i])
+        code = code.replaceAll(lasina[i], linja[i])
     }
     console.log(code);
     document.getElementById("input").value = code
