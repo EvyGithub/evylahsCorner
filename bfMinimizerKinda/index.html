@@ -18,7 +18,7 @@
 
         <br><br>
 
-        <p>Notes: This doesn't FULLY minimize it. The code doesn't get executed. I also have no idea how to detect a FULL skipped loop. The only case that works is <span class="code">[actual loop][]</span>, where the <span class="code">[]</span> would get removed.</p>
+        <p>Notes: This doesn't FULLY minimize it. The code doesn't get executed. I also have no idea how to detect a FULL skipped loop. The only case that works is <span class="code">[<span class="code fake">actual loop</span>][]</span>, where the <span class="code">[]</span> would get removed.</p>
 
         <!--
         <p>Current status:</p>
@@ -79,6 +79,9 @@ hr {
     background-color: #E8E8F8;
     border-radius: 5px;
     padding: 3px;
+}
+.code .fake { /* really just for the [actual loop] */
+    font-family: "Nunito", sans-serif;
 }
 
 button {
