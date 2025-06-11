@@ -157,7 +157,7 @@ seperated by newline and in aiueo jkmnprstw order
 |かな|漢字|
 |----|---|
 |あと|音|
-|えん||店|
+|ねん||店|
 |やせ|画|
 |か|上|
 |かた|方|
