@@ -129,6 +129,7 @@ seperated by newline and in aiueo jkmnprstw order
 やせ 画
 か 上
 かた 方
+きせ ¤
 けそ 新
 こんふ 具
 も 食
@@ -161,6 +162,7 @@ seperated by newline and in aiueo jkmnprstw order
 |やせ|画|
 |か|上|
 |かた|方|
+|きせ|¤|
 |くる|群|
 |けそ|新|
 |こんふ|具|
