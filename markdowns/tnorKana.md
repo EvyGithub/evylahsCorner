@@ -142,6 +142,7 @@ seperated by newline and in aiueo jkmnprstw order
 れ 欲
 さ 物
 しあ 車
+す 水
 すは 平
 せめ 何
 そな 分
