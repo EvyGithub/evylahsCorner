@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html><body>
+    <label for="textbox">input either GD or aisoja save string, NOT including player (-p/-l).</label>
+    <textarea id="textbox" rows=20 cols="1">x/pe/x/x;pe/pe/lkl/lkh;x/lkj/le/x;x/lkk/x/x</textarea>
+    <button onclick="doShit()">xaju/convert</button>
+</body></html>
+
+<style>
+
+body {
+    font-family: sans-serif;
+}
+label {
+    font-size: 18px;
+}
+
+</style>
+
+<script>
+function convertPomeczi(code) {
+  const gdToLetter = {
+    "0": "x",
+    "1": "pe",
+    "2": "le",
+    "3": "pkh",
+    "4": "pkj",
+    "5": "pkk",
+    "6": "pkl",
+    "7": "lkh",
+    "8": "lkj",
+    "9": "lkk",
+    "10": "lkl"
+  };
+
+  const letterToGd = Object.fromEntries(
+    Object.entries(gdToLetter).map(([k, v]) => [v, k])
+  );
+
+  // Detect format: numbers-only tokens => GD
+  const isGD = /^[0-9;/\-]+$/.test(code);
+
+  const map = isGD ? gdToLetter : letterToGd;
+
+  return code.replace(
+    isGD ? /\d+/g : /x|[pl]e|[pl]k[hjkl]?/g,
+    t => map[t] ?? t
+  );
+}
+
+function doShit() {
+    var old = document.getElementById("textbox").value
+    alert(old)
+}
+</script>
