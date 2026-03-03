@@ -19,7 +19,7 @@ sing   plu   case        prepos.
 -e     -em   because³    ris
 
 full:
-   noun      adjective
+---noun---   adjective-
 sing   plu   sing   plu    case      prepos
 -ø     -i    -a     -ija   subj/obj  
 -ow    -owi  -owa   -owija genitive
@@ -27,6 +27,8 @@ sing   plu   sing   plu    case      prepos
 
 ¹ [prepos]e used when next word start with same consonant (including [de]voiced version).
   - te dome, not t dome
+  this also applies to any consonant "pair" in hgml
+  - ze szkole (Idk when you say this), not z szkole
 
 ² -ø (nothing) becomes -o if root has no vowels (like kj- xau nj-)
   also sub/obj are differentiated by whether they go before/after verb
