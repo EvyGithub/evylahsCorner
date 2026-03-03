@@ -1,5 +1,5 @@
 # sangi xajuji
-- /v/ -> w (w i v merge)
+-  /v/ -> w (w i v merge)
 - ~~y (like ы) (kjenu)~~
 - 2thongs allowed
 
@@ -16,11 +16,25 @@ sing   plu   case        prepos.
 -e     -em   tool        z/ze¹
 -e     -em   about       son
 -e     -em   for (?)     za
+-e     -em   because³    ris
 
-¹ [prepos]e used when next word start with same consonant (including [de]voiced version). te dome, not t dome
+full:
+   noun      adjective
+sing   plu   sing   plu    case      prepos
+-ø     -i    -a     -ija   subj/obj  
+-ow    -owi  -owa   -owija genitive
+-e     -em   -eja   -ema   all else  k/ke/w/we/t/te/son/za/ris
+
+¹ [prepos]e used when next word start with same consonant (including [de]voiced version).
+  - te dome, not t dome
 
 ² -ø (nothing) becomes -o if root has no vowels (like kj- xau nj-)
   also sub/obj are differentiated by whether they go before/after verb
+
+³ because uses -e if it's just noun
+  - because (of) this
+  but it can also create clause
+  - because [he did this]
 
 add -a or -ai for adj
 (or -ja/-jai if case ends z vowel)
@@ -40,7 +54,7 @@ za        -e     for (if verb, must use -ucze form)
   example:
   subject        genetive           location
   dom kirosa     domow kirosowa     w dome kiroseja
-  domi kirosai   domowi kirosowija   w domem kirosema
+  domi kirosai   domowi kirosowija  w domem kirosema
   big house(s)   big house(s)'s
 
 - @j@ gone, ju gone, do "is" russkij style. ambigious tje, xo kepu [-]
@@ -83,9 +97,9 @@ w       during  et w lanu             he/she is eating
 t       future  ix te tilu aceja dome³ I will go to your house
 
 ³ you don't need t after tilu because it's basically implied what case [aceja dome] will be
-  pretty stupid, but so am I
+  yea pretty stupid, but so am I
 
-these aren't required. for example if date is specified (check #distelbolszekil), then adding preposition will be pointless
+these aren't required. for example if date is specified (check #distelbolszekil), then adding preposition will be pretty pointless
 
 za can be used to mean "for [verb]" or "(in order) to [verb]"
 
@@ -98,9 +112,13 @@ za can be used to mean "for [verb]" or "(in order) to [verb]"
 # date/time
 nobody said you have to do this, but:
 - date: [year] [month]sekow [day], like polski but year month day i without word [roku]
-  or just iso-8601, nobody will stop you
+  or just iso-8601, nobody will stop you nor care really
   w 2026-02-24
   w 2026 czisekow 24
+  w 2026 jaresczi 24
+  w 2026 jares2 24
+  w 2026j 2s 24d
+  w 2026jar 2sek 24djen
   - months use genetive case, but if you just say w [month], then use location
     ix wilpaju mir nowa z Mainkrafte (minecraft) w kuseke
   - if you really want you can write 5sek as well
