@@ -1,0 +1,193 @@
+# sangi xajuji
+- /v/ -> w (w i v merge)
+- ~~y (like ы) (kjenu)~~
+- 2thongs allowed
+
+
+# cases
+uhhhhhhhh
+sing   plu   case        prepos.
+-ø²    -i    subject
+-ø²    -i    obj
+-ow    -owi  genitive
+-e     -em   origin      k/ke¹
+-e     -em   location    w/we¹
+-e     -em   destination t/te¹
+-e     -em   tool        z/ze¹
+-e     -em   about       son
+-e     -em   for (?)     za
+
+¹ [prepos]e used when next word start with same consonant (including [de]voiced version). te dome, not t dome
+
+² -ø (nothing) becomes -o if root has no vowels (like kj- xau nj-)
+  also sub/obj are differentiated by whether they go before/after verb
+
+add -a or -ai for adj
+(or -ja/-jai if case ends z vowel)
+
+
+# prepositioni alai
+prepos.   case   meaning
+k/ke      -e     from/originates at
+w/we      -e     in/on/at/location (time or space)
+t/te      -e     to/destination
+z/ze      -e     with/using/accompanied by/by
+za        -e     for (if verb, must use -ucze form)
+
+
+# adjective agree
+- adjective must agree z number i case, ~~UNLESS plural, which only adj number agrees i not case~~ (xo vidu example)
+  example:
+  subject        genetive           location
+  dom kirosa     domow kirosowa     w dome kiroseja
+  domi kirosai   domowi kirosowija   w domem kirosema
+  big house(s)   big house(s)'s
+
+- @j@ gone, ju gone, do "is" russkij style. ambigious tje, xo kepu [-]
+  is: nom (-) nom
+  dom kirosa w kje
+  dom kirosa ixa
+  dom kirosa kja - bolszeka i kapija (honestly [-] nie nidu w kje)
+
+
+# pronouns
+ix/ac/et/ec but also cases and number and adjective/possessive ok you get it
+
+
+# names
+names still use -ga/-sa/-se/-szi/-szite, which also means they can take case (name suffix changes za case, not name itself)
+change last vowel in suffix if necessary
+sub/obj -ø   ga   sa      se      szi
+gen     -ow  gow  sajow   sejow   szow
+other   -e   ge   saje    seje    sze
+basically sa/se add j[case] to not confuse with each other, everything else replaces vowel
+
+example:
+[pomeczi] iwano da ben-ge
+[pomeczi] iwano amkara ewila-sejow
+
+kjenxajmalsamu
+
+
+# verbs
+ending  description      example
+-ucz*   base/inf         ix amu mukucz
+-u      everything else  ix amu muku
+
+* -ucz turns verb to noun, so also have to add case
+
+prepositions can be added to verbs to create tenses (verbs by themselves can be any tense, but adding preposition specifies tense)
+prep.   tense   example               lankupaje
+k       past    ix k muku             I ate
+w       during  et w lanu             he/she is eating
+t       future  ix te tilu aceja dome³ I will go to your house
+
+³ you don't need t after tilu because it's basically implied what case [aceja dome] will be
+  pretty stupid, but so am I
+
+these aren't required. for example if date is specified (check #distelbolszekil), then adding preposition will be pointless
+
+za can be used to mean "for [verb]" or "(in order) to [verb]"
+
+
+# adverbs
+- [root]sze
+  kjo czinu taksze = this/that [is] working well
+
+
+# date/time
+nobody said you have to do this, but:
+- date: [year] [month]sekow [day], like polski but year month day i without word [roku]
+  or just iso-8601, nobody will stop you
+  w 2026-02-24
+  w 2026 czisekow 24
+  - months use genetive case, but if you just say w [month], then use location
+    ix wilpaju mir nowa z Mainkrafte (minecraft) w kuseke
+  - if you really want you can write 5sek as well
+
+
+# vocabulary xajuczai
+- nj- -> none/nothing
+- nie = negation particle (negates shit)
+- nij- = same as nie but can be used as prefix (like mal-)
+  - because how to say njwilu
+- even though @j@ doesn't exist, aj/oj/ij/uj/ej still exist seperately, i aren't really considered @j.
+  basically ij means many (ija[i]) or often (ijsze).
+- al- -> fsj- (probably w standardeja LRIe)
+- j -> exist (also kjenju w standardeja LRIe)
+
+
+## pomeczi lore translation
+this is gonna be fun
+
+w 2025 lesekow 31 tje, ben-ga paju iwan malkirosa i facila.
+w culase PE tje, ben-ga i kirisu-sa iwanu iwan.
+[wej] Ga i Sa tilu matjate noweja tje, Sa lanu:
+    Ga paju iwan malkirosa i facila.
+    ix amu kjo.
+kunsi-sa iwanu tje, ec amu.
+kunsi-sa lanu:
+    iwan kja nidu nam.
+    ix disnamu "pomoczo".
+Repun disnamu "pomoczo".
+w zune tje, kunsi-sa tinku:
+    sang "pomeczo"ow - malhaja.
+    ix nie amu.
+    ix xajmalsamu "-ocz-" t "-ecz-"e.
+    iwano xawu pomi, tje "pomeczi".
+Repun disnamu "pomeczi".
+tas, kunsi-sa wildisnamu "pomeczuxo".
+Repun nie amu nam "pomeczuxo"
+(continued if more gets added)
+
+
+## distelbolszekil
+this is gonna be more fun
+
+k HMSe tje, Repun kepu Czaszeczu telbolszekowi Kaczupowi za kirikiluczem.
+w matjate w remmuke tje, kirisu-sa lanu:
+    domxajson disu Czaszeczi t ixace
+    ixac kjenpaju disil szto disu Czaszeczi
+    ix xawu cirktul szto ixac kjenkepu
+    ac paju sek malkja tje, ixac kjenpaju Il.
+kunsi-sa k tilu eceja dome tje, ec paju sek.
+djenxej tje, Saji xajkunu seki, i paju Il.
+Il czinu maltaksze.
+kunsi-sa w eceja dome tje, xajtaku Il.
+djenxej tje, Il czinu.
+Repun kepu Il za xajweku ici szto Repun nie wilu
+Repun turowxajweku edi-se tje, Se nie xajweku.
+djeni ijai tje, Repun kiriku Se.
+w kirikucze, kunsi-sa lanu:
+    xo finkiriku!
+    Law widu kirikucz tje, dismaltaku t ixacem!
+w kirikucze tje, Law widu kirisu-sa pilu oj tje, ec lanu:
+    xo nie pilu kjo!
+    nie aca!
+Repun finkiriku Se.
+Se wilu w kiriku.
+remmuk finu.
+
+
+## kunnic (LRIe noveja)
+wej szte kunsi-sa lanu Lanbolszekun w mila-seje tje, kunnic.
+kunnic tje, kirisu-sa, ewila-sa, kunsi-sa, kairu-sa, i kupaj-sa ju.
+kunnic w eteja Domate: "supmukbolszekux".
+reme kjeja tje, eti nie xawu namo za Domate.
+w zune ijeja tje eti disnamu "huljajpolje" te Domate.
+tas, eti xawu isum.
+isum etija - bolszekisum.
+eti Lanu: "za bolszekisume!".
+eti xawu Pjuk: "kasic i pajic".
+wej Lanucze tje, eti disu Pjuk t kaje(?).
+
+etija domxajson xawu Lawic "hazlet-szite".
+eti fsjai malamu ijsze Lawic.
+eti wilxajweku Lawic.
+tas eti xawu tinki malkjai i malkirosai
+eti wiligraiftu linj mukow, i
+eti wildis muk t xajsonici malkjai
+
+kjo tje, eti pilu taksze
+eti wilpaju
+kjo tje, Repun nicu.
