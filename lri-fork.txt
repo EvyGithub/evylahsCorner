@@ -8,17 +8,18 @@
 uhhhhhhhh
 sing   plu   case        prepos.
 -o     -i    subject
--o     -i    obj
--ow    -owi  genitive
--e     -em   origin      z/ze¹
+-o     -i    obj³
+-ow    -owi  genitive    z/ze¹²
+-e     -em   origin      z/ze¹²
 -e     -em   location    w/we¹
 -e     -em   destination t/te¹
--ek    -eki  tool        z/ze¹
+-ek    -eki  tool        z/ze¹²
 -ek    -eki  about       son
 -ek    -eki  for (?)     za
 
 ¹ [prepos]e used when next word start with same consonant (including [de]voiced version). ke kie, not k kie
-² z/ze is used for origin i destination, but case seperates them
+² z/ze is used for origin i destination, but case seperates them. gen i loc can both be origin; loc is for physical location. like ix tilu z dome (I go from house) vs kio z icamow ixowa (this is from my friend)
+³ generally obj is -o/-i, but if sentence is anything but SVO, use -on/-oni
 
 ix wilu xajmsamu obj/acc case t oje msameja
 tas ix nie sonu szto xaju t exe
@@ -38,8 +39,8 @@ za        -ek    for (if verb, must use -uczek form)
 
 1.2 # full table probably
 --case--  ---noun---   --adjective--   preposition
-sub/obj   -o    -i     -a     -ai
-genitive  -ow   -owi   -owa   -owija
+sub/obj   -o    -i     -a     -ija
+genitive  -ow   -owi   -owa   -owija   z
 location  -e    -em    -eja   -ema     z, w, t
 how(?)    -ek   -eki   -eka   -ekija   z, za, ris, son
 
@@ -56,17 +57,18 @@ if I figure it out somehow, szta kienju
 
 2 # adjective agree
 - adjective must agree z number i case, ~~UNLESS plural, which only adj number agrees i not case~~ (xo widu example)
+(also w table w 1.2seke)
   example:
   subject        genetive           location
   dom kirosa     domow kirosowa     w dome kiroseja
   domi kirosai   domowi kirosowija  w domem kirosema
   big house(s)   big house(s)'s     at big houses
 
-- @j@ gone, ju gone (repurposed), do "is" z russkijow style. ambigious tje, xo kepu [-]
+- @j@ gone, ju gone (repurposed), do "is" z ejek russkijow. ambigious tje, xo zu [-]ek
   is: nom (-) nom
   dom kirosa w kie
   dom kirosa ixa
-  dom kirosa kia - bolszeka i kapija (honestly [-] nie nidu w kje)
+  dom kirosa kia - bolszeka i kapija (honestly [-] nie nidju w kie)
   - or just use [nam]u
     - most things that go with "is" are usually noun/adj, so they just work with [nam]u
     dom kirosu
@@ -88,7 +90,7 @@ other   -e   ge   saje    seje    sze
 basically sa/se add j[case] to not confuse with each other, everything else replaces vowel
 
 example:
-[pomeczi] iwano z ben-ge
+[pomeczi] ixet iwanu pomeczi z supmukek ben-gejow
 [pomeczi] iwano amkara ewila-sejow
 
 kjenxajmalsamu
@@ -103,7 +105,7 @@ ending  description      example
 
 prepositions can be added to verbs to create tenses (verbs by themselves can be any tense, but adding preposition specifies tense)
 prep.   tense   example                lankupaje
-k       past    ix k muku              I ate
+k       past    ix z muku              I ate
 w       during  et w lanu              he/she is eating
 t       future  ix te tilu aceja dome³ I will go to your house
 
@@ -112,13 +114,16 @@ t       future  ix te tilu aceja dome³ I will go to your house
 
 these aren't required. for example if date is specified (check #distelbolszekil), then adding preposition will be pointless
 
-za can be used to mean "for [verb]" or "(in order) to [verb]" (like para k españole)
+can also do this kunsi-ejek, [nam][ez/ew/et]u
+ix mukezu, et lanewu, ix tiletu aceja dome
+
+za can be used to mean "for [verb]" or "(in order) to [verb]" (like para z españolow)
 
 
 6 # adverbs
 - [root]sze
-  kjo czinu taksze = this/that [is] working well
-  ix wilmuku kjo djenxejsze
+  kio czinu taksze = this/that [is] working well
+  ix xoczmuku kio dienxejsze
 
 
 7 # date/time
@@ -128,23 +133,23 @@ nobody said you have to do this, but:
   w 2026-02-24
   w 2026 czisekow 24
   - months use genetive case, but if you just say w [month], then use location
-    ix wilpaju mir nowa z Mainkrafte (minecraft) w kuseke
+    ix xoczpaju miro nowa z Mainkraftek (minecraft) w kuseke
   - if you really want you can write 5sek as well
 
 
 8 # nami xajuczai
-- nj- -> none/nothing
+- ni- -> none/nothing
 - nie = negation particle (negates shit)
-- nij- = same as nie but can be used as prefix (like mal-)
-  - because how to say njwilu
-- even though @j@ doesn't exist, aj/oj/ij/uj/ej still exist seperately, i aren't really considered @j.
+- can use ni like mal in verb (nixoczu)
+  - because how to say njxoczu
+- even though @j@ doesn't exist, aj/oj/ij/uj/ej still exist seperately, i aren't really considered @j (Idk xajtaku w zune)
   basically ij means many (ija[i]) or often (ijsze).
-- al- -> fsi- (probably w standardeja LRIe)
-- j- -> exist (also kjenju w standardeja LRIe)
-- kep-/kun- -> z- (you can say zu or kja zuczo nie ju)
+- al- -> fsi- (kienju w aisojeja LRIe)
+- j- -> exist (also kienju w aisojeja LRIe)
+- kep-/kun- -> z- (you can say zu or kia zuczo nie ju)
 - most CjV (like djel or kj or nj or tje/sje) are CiV (like diel-, ki-, ni-, kien, tie/sie, ...)
 - vej- -> w-, -ev-(?)/-at- Ig -> -ew-
-  - piukwo = piuko with locations
+  - piukwo = piuko z locationeki
   - piukewo = piuko place (like library maybe Idk)
 
 
